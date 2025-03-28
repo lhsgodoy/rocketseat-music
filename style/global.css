@@ -62,7 +62,7 @@ h1,h2,h3 {
 }
 
 h1 {
-    font-size: var(--fs-2xl) ;
+    font-size: var(--fs-2xl) ;  
 }
 
 h2 {
@@ -105,4 +105,8 @@ a:hover {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+img {
+    
 }
