@@ -1,12 +1,29 @@
 #mobile-img {
     width: 100%;
     max-width: 100%;
-    background: url(../assets/images/Ilustração.svg) top/cover; 
+    background: url(../assets/icons/bg-hero.svg) no-repeat bottom center/contain;
     margin-top: 2rem;
 }
 
 section {
+    & header {
+       & h2 {
+        margin-top: .5rem;
 
+       } 
+    & strong {
+        display: block;
+        font: var(--fw-md) var(--fs-sm)/100% var(--ff);
+    letter-spacing: 0.08em;  
+    text-transform: uppercase; 
+    
+    color: var(--brand-color-primary);
+    }
+    }
+    & p {
+        margin-top: .5rem;
+        color: var(--text-color-secondary);
+    }
 }
 
 @media (width >= 80rem) {
